@@ -1,0 +1,13 @@
+.OwnerMessageCompo {
+  background-color: rgb(30, 36, 43);
+  display: flex;
+  padding: 100px 200px;
+  color: rgb(220, 169, 50);
+  gap: 100px;
+}
+
+.txt1 {
+  font-size: 46px;
+  font-weight: 600;
+  font-family: fangsong;
+}

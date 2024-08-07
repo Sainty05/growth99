@@ -1,0 +1,95 @@
+.cardComponent {
+  width: 45vw;
+  margin: 31px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(179, 108, 0) 0%,
+    rgb(247, 209, 83) 100%
+  ) !important;
+  border-radius: 10px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.cardComponent2 {
+  width: 45vw;
+  background: white;
+  padding: 0px 75px;
+}
+
+.cardComponent3 {
+  width: 45vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.text {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Lora";
+}
+
+.text1 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Lora";
+}
+
+.text2 {
+  font-size: 35px;
+  font-weight: 200;
+  font-family: "Lora";
+}
+
+.btncss {
+  width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(179, 108, 0) 0%,
+    rgb(247, 209, 83) 100%
+  ) !important;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "lora";
+}
+
+.btncss:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.button {
+  border-width: 0px;
+  border-radius: 100px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  font-family: Lora, serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  background-image: linear-gradient(
+    90deg,
+    rgb(179, 108, 0) 0%,
+    rgb(247, 209, 83) 100%
+  ) !important;
+  color: rgb(30, 36, 43);
+  font-weight: 900 !important;
+  display: block;
+  width: fit-content;
+  margin-top: 4vh;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+}
